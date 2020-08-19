@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap");
+
+.recipe-detail {
+  font-family: 'Roboto Slab', serif;
+  background-image: url(../images/recipe-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.section-1 {
+  text-align: center;
+  margin-top: 4rem;
+  color: rgb(206, 206, 206);
+}
+
+.section-1 img {
+  width: 40%;
+  margin: 2rem;
+  filter: none;
+}
+
+.section-1 span {
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+
+.section-1 p {
+  font-size: 1.4rem;
+  margin: 2rem;
+}
+
+.section-2 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.section-2 h2 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.section-3 {
+  text-align: center;
+  margin-top: 5rem;
+  color: rgb(206, 206, 206);
+
+}
+
+.section-3-card {
+  background-color: rgb(88, 86, 88);
+  margin: 1rem 2rem;
+}
+
+.section-3 h2 {
+  margin-bottom: 2rem;
+}

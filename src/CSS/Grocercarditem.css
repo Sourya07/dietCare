@@ -1,0 +1,33 @@
+.grocery_card {
+  text-align: center;
+  flex-basis: 30%;
+  margin: 1.5rem;
+  border-radius: 0%;
+  border: 0px solid black;
+  font-family: "Roboto Slab", serif;
+  margin-top: 4rem;
+
+
+}
+
+.grocery_card h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.grocery_card img {
+  width: 20rem;
+  height: 20rem;
+  align-self: center;
+}
+
+.grocery_card button {
+  background-color: #ff7e1a;
+  color: white;
+  border: none;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+}

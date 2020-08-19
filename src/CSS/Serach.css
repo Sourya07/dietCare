@@ -1,0 +1,29 @@
+.input-group {
+  position: relative;
+  margin: auto;
+  width: 40% !important;
+}
+
+@media(max-width:420px) {
+  .input-group {
+    width: 80% !important;
+  }
+}
+
+.input-group ul {
+  position: absolute;
+  list-style: none;
+  width: 50%;
+  top: 36px;
+  left: 3px;
+}
+
+.input-group ul li {
+  background-color: white;
+  opacity: 0.9;
+  border-bottom: 1px solid #ccc;
+  padding: 3px 0;
+  color: black;
+  padding-left: 10px;
+  cursor: pointer;
+}

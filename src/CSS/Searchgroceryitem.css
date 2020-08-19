@@ -1,0 +1,42 @@
+.input-group {
+  position: relative;
+}
+
+.input-group ul {
+  position: absolute;
+  list-style: none;
+  width: 85%;
+  top: 36px;
+  left: 2px;
+}
+
+.input-group ul li {
+  background-color: white;
+  opacity: 0.9;
+  border-bottom: 1px solid #ccc;
+  padding: 3px 0;
+  color: black;
+  padding-left: 10px;
+  cursor: pointer;
+  z-index: 500;
+}
+
+.grocerySearch {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2rem 1.5rem;
+  width: max-content;
+  /* background-image: url(../images/bg-grocery.jpeg); */
+}
+
+.grocerySearch__img {
+  flex-basis: 65%;
+}
+
+.grocerySearch__box {
+  flex-basis: 35%;
+  padding: 1rem 2rem;
+}

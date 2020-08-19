@@ -1,0 +1,20 @@
+.mealplans {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.choose-date {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 80px;
+}
+.mealplan-date {
+  display: flex;
+  justify-content: center;
+}
+.mealpan_page {
+  background-color: #2d2f38;
+  min-height: 100vh;
+}

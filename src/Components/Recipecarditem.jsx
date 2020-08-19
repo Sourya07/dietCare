@@ -1,15 +1,7 @@
 import React from "react";
 import "../CSS/Recipecarditem.css";
-import {
-  Link
-} from "react-router-dom";
-import {
-  Card,
-  CardImg,
-  CardBody,
-  CardTitle,
-  Button
-} from "reactstrap";
+import { Link } from "react-router-dom";
+import { Card, CardImg, CardBody, CardTitle, Button } from "reactstrap";
 
 const Recipecarditem = (props) => {
   console.log(props);
@@ -23,49 +15,27 @@ const Recipecarditem = (props) => {
     }
   };
 
-  return ( <
-    div className = "recipe-card" >
-    <
-    Link style = {
-      {
-        textDecoration: "none",
-        color: "inherit"
-      }
-    }
-    to = {
-      `/recipe/${props.recipe.id}`
-    } >
-    <
-    Card >
-    <
-    CardImg top width = "100%"
-    src = {
-      props.recipe.image
-    }
-    alt = "Card" / >
-    <
-    CardBody >
-    <
-    CardTitle > {
-      titleShorter(props.recipe.title)
-    } < /CardTitle> <
-    div className = "line" > < /div> <
-    Link style = {
-      {
-        textDecoration: "none",
-        color: "inherit"
-      }
-    }
-    to = {
-      `/recipe/${props.recipe.id}`
-    } >
-    <
-    Button > Read More < /Button> <
-    /Link> <
-    /CardBody> <
-    /Card> <
-    /Link> <
-    /div>
+  return (
+    <div className="recipe-card">
+      <Link
+        style={{ textDecoration: "none", color: "inherit" }}
+        to={`/recipe/${props.recipe.id}`}
+      >
+        <Card>
+          <CardImg top width="100%" src={props.recipe.image} alt="Card" />
+          <CardBody>
+            <CardTitle>{titleShorter(props.recipe.title)}</CardTitle>
+            <div className="line"></div>
+            <Link
+              style={{ textDecoration: "none", color: "inherit" }}
+              to={`/recipe/${props.recipe.id}`}
+            >
+              <Button>Read More</Button>
+            </Link>
+          </CardBody>
+        </Card>
+      </Link>
+    </div>
   );
 };
 
